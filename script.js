@@ -90,3 +90,15 @@ for (i = 0; i < document.getElementsByClassName("HtmlTextArea").length; i++)
 }
 
 var a12b = 1;
+
+$("#myaccordion > li > a").removeClass('ui-accordion-header'); 
+$("#myaccordion > li > a").removeClass('ui-helper-reset');
+$("#myaccordion > li > a").removeClass('ui-state-default');
+$("#myaccordion > li > a").removeClass('ui-corner-all');
+$("#myaccordion > li > a").removeClass('ui-accordion-icons');
+$("#myaccordion > li > a").removeClass('ui-state-hover');
+$("#myaccordion > li > a > .ui-icon").remove();
+$("#ui-accordion-myaccordion-header-1 > span > span").css('left', '-25px');
+$('#ui-accordion-myaccordion-header-1').hover(
+       function(){ $(this).removeClass('ui-state-hover') }
+)
