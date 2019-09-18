@@ -5,8 +5,9 @@
 }
 
 .fa-angle-right {
-	margin-top:0px;
+	margin-top:0px !important; 
 }
+
 
 .buttonsicons {
 	display: none
