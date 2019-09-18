@@ -4,8 +4,12 @@
 	font-weight: 500;
 }
 
-#myaccordionfilters h3 a span.fa.fa-angle-right {
-	margin-top:0px;
+.fa-angle-right {
+	margin-top:0px !important; 
+}
+
+.fa-angle-down{
+	margin-top:0px !important; 
 }
 
 .buttonsicons {
