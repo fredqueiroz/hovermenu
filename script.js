@@ -102,5 +102,8 @@ $("#myaccordion > li > a > span > span").css('left', '-25px');
 $('#myaccordion > li > a > span').css('font-weight', '500');
 $('#myaccordion > li > a').hover(
        function(){ $(this).removeClass('ui-state-hover') }
-)
+);
+$('#myaccordion > li > a').click(
+       function(){ $(this).removeClass('ui-state-hover') }
+);
 
