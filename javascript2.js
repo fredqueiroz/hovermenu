@@ -45,8 +45,8 @@ document.getElementById("shadow").onclick = function() {
 };
 
 document.getElementById("menu").onmouseover = function() {
-	document.getElementById("shadow").style.width = "100%";
 	if (document.getElementById("menu").style.width == "70px") {
+		document.getElementById("shadow").style.width = "100%";
 		document.getElementById("menu").style.width = "400px";
 		document.getElementById("shadow").style.width = "100%";
 	}
