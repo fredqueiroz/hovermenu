@@ -4,10 +4,13 @@
 	font-weight: 500;
 }
 
-.fa-angle-right .fa-angle-down {
+.fa-angle-right {
 	margin-top:0px !important; 
 }
 
+.fa-angle-down{
+	margin-top:0px !important; 
+}
 
 .buttonsicons {
 	display: none
