@@ -69,7 +69,8 @@ $("#myaccordion").accordion({
 		},
 });
 
-var a12b = 1;
+$('.VerticalScrollbarContainer.sf-element.sf-element-scroll-bar.sfpc-right').attr('style', 'display: none');
+$('.HorizontalScrollbarContainer.sf-element.sf-element-scroll-bar.sfpc-bottom').attr('style', 'display: none');
 
 var i = 0;
 for (i = 0; i < document.getElementsByClassName("StyledScrollbar").length; i++)
@@ -88,11 +89,9 @@ for (i = 0; i < document.getElementsByClassName("HtmlTextArea").length; i++)
 	}
 }
 
+var a12b = 1;
+
 setTimeout(function(){
-
-	$('.VerticalScrollbarContainer.sf-element.sf-element-scroll-bar.sfpc-right').attr('style', 'display: none');
-	$('.HorizontalScrollbarContainer.sf-element.sf-element-scroll-bar.sfpc-bottom').attr('style', 'display: none');
-
 	$("#myaccordion > li > a").removeClass('ui-accordion-header'); 
 	$("#myaccordion > li > a").removeClass('ui-helper-reset');
 	$("#myaccordion > li > a").removeClass('ui-state-default');
@@ -103,13 +102,12 @@ setTimeout(function(){
 	$("#myaccordion > li > a > span > span").css('left', '-25px');
 	$('#myaccordion > li > a > span').css('font-weight', '500');
 	$('#myaccordion > li > a').hover(
-	       function(){ $(this).removeClass('ui-state-hover') }
+		   function(){ $(this).removeClass('ui-state-hover') }
 	);
 	$('#myaccordion > li > a').focus(
-	       function(){ $(this).removeClass('ui-state-focus') }
+		   function(){ $(this).removeClass('ui-state-focus') }
 	);
 	$('#myaccordion > li > a').click(
-	       function(){ $(this).removeClass('ui-state-active') }
+		   function(){ $(this).removeClass('ui-state-active') }
 	);
-	
 }, 2000);
