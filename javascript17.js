@@ -110,4 +110,4 @@ setTimeout(function(){
 	$('#myaccordion > li > a').click(
 		   function(){ $(this).removeClass('ui-state-active') }
 	);
-}, 2000);
+}, 5000);
