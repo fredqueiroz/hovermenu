@@ -26,7 +26,7 @@ $(".icons").click(function() {
     triggerClick(navMenu);
 });
 
-document.getElementById("shadow").onclick = function() {
+document.getElementById("shadow").mouseover = function() {
 	document.getElementById("shadow").style.width = "0%";
 	document.getElementById("menu").style.width = "70px";
 	$("#myaccordion").accordion({
