@@ -106,3 +106,6 @@ $('#myaccordion > li > a').hover(
 $('#myaccordion > li > a').focus(
        function(){ $(this).removeClass('ui-state-focus') }
 );
+$('#myaccordion > li > a').active(
+       function(){ $(this).removeClass('ui-state-active') }
+);
